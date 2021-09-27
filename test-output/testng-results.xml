@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20879" started-at="2021-01-17T22:01:48 IST" finished-at="2021-01-17T22:02:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20879" started-at="2021-01-17T22:01:48 IST" finished-at="2021-01-17T22:02:09 IST">
+      <class name="com.qainfotech.automation.tatocAutomation.Advance_Test">
+        <test-method status="PASS" signature="setupwebdriver()[pri:1, instance:com.qainfotech.automation.tatocAutomation.Advance_Test@63e2203c]" name="setupwebdriver" duration-ms="5587" started-at="2021-01-17T22:01:49 IST" finished-at="2021-01-17T22:01:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupwebdriver -->
+        <test-method status="PASS" signature="launchQAITVPN()[pri:2, instance:com.qainfotech.automation.tatocAutomation.Advance_Test@63e2203c]" name="launchQAITVPN" duration-ms="4788" started-at="2021-01-17T22:01:54 IST" finished-at="2021-01-17T22:01:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchQAITVPN -->
+        <test-method status="PASS" signature="launchtatoc()[pri:3, instance:com.qainfotech.automation.tatocAutomation.Advance_Test@63e2203c]" name="launchtatoc" duration-ms="5595" started-at="2021-01-17T22:01:59 IST" finished-at="2021-01-17T22:02:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtatoc -->
+        <test-method status="PASS" signature="AdvanceTest_Select()[pri:4, instance:com.qainfotech.automation.tatocAutomation.Advance_Test@63e2203c]" name="AdvanceTest_Select" duration-ms="1866" started-at="2021-01-17T22:02:05 IST" finished-at="2021-01-17T22:02:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvanceTest_Select -->
+        <test-method status="PASS" signature="HoverMenu()[pri:5, instance:com.qainfotech.automation.tatocAutomation.Advance_Test@63e2203c]" name="HoverMenu" duration-ms="2890" started-at="2021-01-17T22:02:06 IST" finished-at="2021-01-17T22:02:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HoverMenu -->
+        <test-method status="FAIL" signature="dataBaseConnection()[pri:6, instance:com.qainfotech.automation.tatocAutomation.Advance_Test@63e2203c]" name="dataBaseConnection" duration-ms="71" started-at="2021-01-17T22:02:09 IST" finished-at="2021-01-17T22:02:09 IST">
+          <exception class="java.lang.ClassNotFoundException">
+            <message>
+              <![CDATA[com.mysql.jdbc.Driver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at java.lang.Class.forName0(Native Method)
+at java.lang.Class.forName(Unknown Source)
+at com.qainfotech.automation.tatocAutomation.Advance_Test.dataBaseConnection(Advance_Test.java:98)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataBaseConnection -->
+      </class> <!-- com.qainfotech.automation.tatocAutomation.Advance_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
